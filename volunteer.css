@@ -1,0 +1,154 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* HEADER */
+.site-header {
+    background: #2e8b57;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.site-title {
+    font-size: 2em;
+    margin: 0 20px;
+}
+
+.header-quote {
+    font-size: 0.9em;
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-input {
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+}
+
+.search-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px; /* Match padding of the search input */
+    border-radius: 0 20px 20px 0; /* Round the right edges */
+    font-size: 1em; /* Set the font size for the icon */
+}
+
+.search-button .fa-search { /* FontAwesome search icon */
+    display: inline-block;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.nav-list a:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/* Center align headings */
+h3, h4 {
+    text-align: center;
+}
+
+/* Style the form container */
+form {
+    max-width: 50%; /* Adjusted for responsiveness */
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom, yellow, orange);
+}
+main{
+    padding: 20px;
+}
+.intro, .opportunities, .signup {
+    margin-bottom: 30px;
+}
+
+.intro h2, .signup h2 {
+    color: #2e8b57;
+    text-align: center;
+}
+.opportunities h2{
+    text-align: justify;
+    color: #2e8b57;
+}
+.opportunities ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #2e8b57;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #228b22;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
