@@ -125,9 +125,9 @@ body {
 
 /* Apply the main theme colors and fonts */
 body {
-    font-family: 'Arial', sans-serif; 
-    background-color: #f0f0f0; 
-    color: #333; 
+    font-family: 'Arial', sans-serif; /* Update with your font */
+    background-color: #f0f0f0; /* Update with your background color */
+    color: #333; /* Update with your font color */
     line-height: 1.6;
 }
 
@@ -154,7 +154,7 @@ body {
 }
 
 .contact-form-container form button {
-    background-color: #03381a; 
+    background-color: #03381a; /* Use your theme's button color */
     color: #ffffff;
     border: none;
     padding: 10px 20px;
@@ -175,6 +175,7 @@ body {
     }
 }
 
+/* You may include other styles from your site's CSS here */
 
 
 /* footer  */
