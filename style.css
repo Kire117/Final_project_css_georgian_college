@@ -105,21 +105,41 @@ body {
 }
 
 @media (max-width: 768px) {
+    .site-header {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .logo img {
+        height: 40px; /* Smaller logo for smaller screens */
+    }
+
     .site-title {
         font-size: 1.5em;
+        margin: 10px 0;
+    }
+
+    .header-quote {
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .search-container {
+        width: 100%;
+        margin-top: 10px;
     }
 
     .nav-list {
         flex-direction: column;
+        width: 100%;
         align-items: center;
-    }
-
-    .nav-list li {
-        margin: 5px 0;
-    }
-
-    .search-container {
         margin-top: 10px;
+    }
+
+    .nav-list a {
+        padding: 8px;
+        width: 100%; /* Full width nav items */
+        text-align: center;
     }
 }
 
@@ -327,6 +347,30 @@ body {
         width: 100%;
     }
 }
+
+.carousel-caption {
+    top: 0;
+    right: 0;
+    left: auto;
+    bottom: auto;
+    transform: none;
+    text-align: right;
+}
+
+.donation {
+    display: inline-block;
+    margin: 20px; /* Adjust margin to fit */
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding inside the button */
+    text-decoration: none; /* Remove underline from link */
+    border-radius: 5px; /* Rounded corners for the button */
+}
+
+.donation:hover {
+    background-color: #367C39; /* Darker green on hover */
+}
+
 
 
 
